@@ -66,10 +66,14 @@ p {
     line-height: 1.4;
 }
 
+/* BODY CONTAINER */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* NAVIGATION MENU AND NAVIGATION ELEMENTS */
 
 .logo-nav {
     margin-top: 25px;
@@ -97,9 +101,13 @@ p {
     color: black;
 }
 
+/* HEADER IMAGE */
+
 .hero-img {
     margin: 40px 0px 30px 0px;
 }
+
+/* TOP SECTION AFTER HEADER IMAGE */
 
 .top-content {
     display: flex;
@@ -122,6 +130,8 @@ p {
 .top-section p {
     padding: 8px;
 }
+
+/* MIDDLE SECTION */
 
 .middle-content {
     margin-bottom: 20px;
@@ -245,6 +255,8 @@ p {
     border-radius: 10px;
 }
 
+/* BOTTOM SECTION BEFORE FOOTER */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -270,6 +282,8 @@ p {
 .bottom-section p {
     padding: 10px 0px 10px 10px;
 }
+
+/* FOOTER SECTION */
 
 footer {
     width: 100%;
