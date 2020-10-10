@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+.logo-nav {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav-items li {
+    flex-grow: 1;
+    padding: 0px 40px;
+}
+
+.hero-img {
+    margin: 40px 0px 30px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +108,14 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-section h6 {
+    padding: 8px;
+}
+
+.top-section p {
+    padding: 8px;
 }
 
 .middle-content {
@@ -112,6 +145,101 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6 {
+    background:forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    margin: 10px 0px;
+}
+
+.middle-section .boxes {
+    width: 48%;
+    padding: 20px 1%;
+    padding-bottom: 20px; 
+}
+
+.middle-section .first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.middle-section .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.middle-section .boxes h6 {
+    padding: 10px 0px;
+}
+
+.middle-section .boxes p {
+    margin-bottom: 30px;
+}
+
+.middle-section .first-row .boxa {
+    border-bottom: 1px dashed black;
+}
+.middle-section .first-row .boxb {
+    border-bottom: 1px dashed black;
+}
+.middle-section .second-row .boxc {
+    border-bottom: 1px dashed black;
+}
+.middle-section .second-row .boxd {
+    border-bottom: 1px dashed black;
+}
+
+.middle-section .first-row .btn {
+    padding: 15px 0px;
+}
+
+.middle-section .second-row .btn{
+    padding: 15px 0px;
+}
+
+.middle-section .boxes a {
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,12 +254,25 @@ p {
     padding-right: 0;
 }
 
+.bottom-section {
+    margin: 10px 0px;
+}
+
+.bottom-section h6 {
+    padding: 20px 0px 10px 10px;
+}
+
+.bottom-section p {
+    padding: 10px 0px 10px 10px;
+}
+
 footer {
     width: 100%;
     background: black;
 }
 
 footer nav {
+    margin-top: 20px;
     width: 60%;
     display: flex;
     justify-content: space-between;
